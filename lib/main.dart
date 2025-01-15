@@ -81,8 +81,7 @@ class _RootPageState extends State<RootPage> {
       body: navigationProvider.currentBody,
       bottomNavigationBar: NavigationBar(
         backgroundColor: Colors.transparent,
-        selectedIndex: navigationProvider
-            .currentIndex, // Dynamically update selected index
+        selectedIndex: navigationProvider.currentIndex,
         onDestinationSelected: (index) {
           navigationProvider.updateIndex(index);
         },
@@ -95,7 +94,6 @@ class _RootPageState extends State<RootPage> {
             width: 1.0,
           ),
         ),
-
         destinations: [
           const NavigationDestination(
             icon: Icon(Icons.favorite_border, color: Colors.white),
