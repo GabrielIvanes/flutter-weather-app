@@ -24,6 +24,6 @@
    CHATBOT_API_KEY=yourHuggingFaceApiKey
    ```
 
-Thanks to [@lmfmaier](https://github.com/lmfmaier) for the `cities.json` file
-All animated icons are coming from [flaticon.com](https://www.flaticon.com/icons)
+Thanks to [@lmfmaier](https://github.com/lmfmaier) for the `cities.json` file \
+All animated icons are coming from [flaticon.com](https://www.flaticon.com/icons) \
 The models files were created on [quicktype.io](https://app.quicktype.io/)
